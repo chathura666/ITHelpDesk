@@ -1,7 +1,7 @@
-#2020/MIT/077___20550774 ITHelpDesk System README
+#2020/MIT/077___20550774 HelpDesk Ticket Management System README
 
 ## Overview
-The ITHelpDesk system is a web-based ticket management application built using CodeIgniter 4. It allows users to submit IT support requests and provides a streamlined interface for support staff to manage and respond to those requests.
+The HelpDesk Ticket Management System is a web-based ticket management application built using CodeIgniter 4. It allows users to submit IT support requests and provides a streamlined interface for support staff to manage and respond to those requests.
 
 ## Prerequisites
 
