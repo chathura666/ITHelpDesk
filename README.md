@@ -1,5 +1,12 @@
 #2020/MIT/077___20550774 HelpDesk Ticket Management System README
 
+Name - R.M.C.D. Premarathna
+Registration Number - 2020/MIT/077
+Index Number - 20550774
+Project Title - HelpDesk Ticket Management System
+GitHub URL - https://github.com/chathura666/ITHelpDesk
+
+
 ## Overview
 The HelpDesk Ticket Management System is a web-based ticket management application built using CodeIgniter 4. It allows users to submit IT support requests and provides a streamlined interface for support staff to manage and respond to those requests.
 
