@@ -1,54 +1,85 @@
-# CodeIgniter 4 Framework
+# ITHelpDesk System README
 
-## What is CodeIgniter?
+## Overview
+The ITHelpDesk system is a web-based ticket management application built using CodeIgniter 4. It allows users to submit IT support requests and provides a streamlined interface for support staff to manage and respond to those requests.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Prerequisites
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- **XAMPP**: Ensure you have XAMPP installed. You can download it from [Apache Friends](https://www.apachefriends.org/index.html).
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Installation Steps
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+### Step 1: Set Up XAMPP
 
-## Important Change with index.php
+1. **Start XAMPP**: Open the XAMPP Control Panel and start the Apache and MySQL services.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### Step 2: Set Up the Project
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+1. **Move CodeIgniter**: Place the `ITHelpDesk` folder in the `htdocs` directory of your XAMPP installation (usually located at `C:\xampp\htdocs\`).
 
-**Please** read the user guide for a better explanation of how CI4 works!
+### Step 3: Create Database
 
-## Repository Management
+1. Open your browser and navigate to `http://localhost/phpmyadmin`.
+2. Click on the "Databases" tab and create a new database named `ithelpdesk`.
+3. Import the database structure:
+   - Use the provided SQL file located in the `ITHelpDesk/sql` directory (e.g., `ithelpdesk.sql`).
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### Step 4: Configure the Application
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+1. **Base URL**:
+   - Open `app/Config/App.php`.
+   - Set the `baseURL`:
+     ```php
+     public $baseURL = 'http://localhost/ITHelpDesk/';
+     ```
 
-## Contributing
+2. **Database Configuration**:
+   - Open `app/Config/Database.php`.
+   - Update the database settings:
+     ```php
+     public $default = [
+         'DSN'      => '',
+         'hostname' => 'localhost',
+         'username' => 'root', // Default XAMPP username
+         'password' => '',     // Default XAMPP password (leave empty)
+         'database' => 'ithelpdesk',
+         'DBDriver' => 'MySQLi',
+         'DBPrefix' => '',
+         'pConnect' => false,
+         'DBDebug'  => (ENVIRONMENT !== 'production'),
+         'cacheOn'  => false,
+         'cachedir' => '',
+         'charSet'  => 'utf8',
+         'DBCollat' => 'utf8_general_ci',
+         'swapPre'  => '',
+         'encrypt'  => false,
+         'compress'  => false,
+         'strictOn'  => false,
+         'failover'  => [],
+         'saveQueries' => true
+     ];
+     ```
 
-We welcome contributions from the community.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
 
-## Server Requirements
+### Step 5: Access the Application
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+1. Open your browser and go to `http://localhost/ITHelpDesk/`.
+2. You should see the home page of the ITHelpDesk application.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+## Features
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+- User registration and login
+- Submit IT support tickets
+- View ticket status and history
+- Admin dashboard for ticket management
+- Notifications for ticket updates
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Troubleshooting
+
+- **Error 404**: Ensure the URL is correct and that Apache is running.
+- **Database Connection Error**: Double-check your database configuration in `Database.php`.
+
+---
+
+Feel free to reach out if you have any questions or issues!
