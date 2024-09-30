@@ -1,0 +1,11 @@
+CRITICAL - 2023-12-20 10:32:02 --> Undefined property: stdClass::$assign_group
+in APPPATH\Views\UserManagementView\ViewUser.php on line 73.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$assign_group', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(102): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

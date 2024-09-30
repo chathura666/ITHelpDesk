@@ -1,0 +1,616 @@
+CRITICAL - 2024-03-18 10:24:07 --> Undefined variable $roles
+in APPPATH\Views\UnitManagementView\ViewUnit.php on line 59.
+ 1 APPPATH\Views\UnitManagementView\ViewUnit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\UnitManagementView\\ViewUnit.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\ViewUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:15 --> Undefined variable $roles
+in APPPATH\Views\UnitManagementView\ViewUnit.php on line 64.
+ 1 APPPATH\Views\UnitManagementView\ViewUnit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\UnitManagementView\\ViewUnit.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\ViewUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:16 --> Undefined variable $roles
+in APPPATH\Views\UnitManagementView\ViewUnit.php on line 64.
+ 1 APPPATH\Views\UnitManagementView\ViewUnit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\UnitManagementView\\ViewUnit.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\ViewUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:35 --> Undefined variable $roles
+in APPPATH\Views\UnitManagementView\ViewUnit.php on line 93.
+ 1 APPPATH\Views\UnitManagementView\ViewUnit.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\UnitManagementView\\ViewUnit.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\ViewUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:36 --> Undefined variable $roles
+in APPPATH\Views\UnitManagementView\ViewUnit.php on line 93.
+ 1 APPPATH\Views\UnitManagementView\ViewUnit.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\UnitManagementView\\ViewUnit.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\ViewUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:49 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 6 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:50 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 6 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:51 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 6 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:52 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 6 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:54 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/ViewRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(87): view('RoleManagementView/ViewRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:55 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/ViewUnit', [], true)
+ 6 APPPATH\Controllers\UnitManagementController.php(55): view('UnitManagementView/ViewUnit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:55 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/RoleMapping', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(260): view('RoleManagementView/RoleMapping', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrole()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:56 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/AddRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(99): view('RoleManagementView/AddRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelisttoadd()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 10:27:57 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/ViewRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(87): view('RoleManagementView/ViewRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 11:45:16 --> Call to undefined method App\Models\UnitModel::updateRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\UnitManagementController.php(201): CodeIgniter\Model->__call('updateRole', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->searchAndUpdateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 11:46:23 --> Call to undefined method App\Models\UnitModel::updateRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\UnitManagementController.php(201): CodeIgniter\Model->__call('updateRole', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->searchAndUpdateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 12:23:32 --> Undefined variable $unitlist
+in APPPATH\Views\UnitManagementView\EditUnit.php on line 108.
+ 1 APPPATH\Views\UnitManagementView\EditUnit.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unitlist', 'APPPATH\\Views\\UnitManagementView\\EditUnit.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UnitManagementView\\EditUnit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UnitManagementView/EditUnit', [], true)
+ 5 APPPATH\Controllers\UnitManagementController.php(51): view('UnitManagementView/EditUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getunitlisttoedit()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:25:53 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:26:02 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:30:55 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:30:56 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:31:01 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:31:10 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:31:10 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:31:11 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:32:44 --> Call to undefined method App\Models\TicketModel::leftj
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('leftj', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:35:05 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:35:05 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:35:21 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:35:21 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:35:22 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:36:54 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:36:54 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:36:55 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:36:55 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:37:05 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:37:05 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:37:13 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:37:13 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 15:37:14 --> mysqli_sql_exception: Unknown column 'user_master.user_name' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#9 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 15:37:14 --> Unknown column 'user_master.user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` AS `issue_description`, `user_master`.`user_name` as `name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TicketModel.php(37): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:41:28 --> Undefined property: stdClass::$issue_description
+in APPPATH\Views\TicketView\AllTickets.php on line 75.
+ 1 APPPATH\Views\TicketView\AllTickets.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$issue_description', 'APPPATH\\Views\\TicketView\\AllTickets.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\AllTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/AllTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(84): view('TicketView/AllTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:41:29 --> Undefined property: stdClass::$issue_description
+in APPPATH\Views\TicketView\AllTickets.php on line 75.
+ 1 APPPATH\Views\TicketView\AllTickets.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$issue_description', 'APPPATH\\Views\\TicketView\\AllTickets.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\AllTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/AllTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(84): view('TicketView/AllTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:41:30 --> Undefined property: stdClass::$issue_description
+in APPPATH\Views\TicketView\AllTickets.php on line 75.
+ 1 APPPATH\Views\TicketView\AllTickets.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$issue_description', 'APPPATH\\Views\\TicketView\\AllTickets.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\AllTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/AllTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(84): view('TicketView/AllTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:42:05 --> Undefined property: stdClass::$issue_description
+in APPPATH\Views\TicketView\AllTickets.php on line 75.
+ 1 APPPATH\Views\TicketView\AllTickets.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$issue_description', 'APPPATH\\Views\\TicketView\\AllTickets.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\AllTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/AllTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(84): view('TicketView/AllTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:30:25 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:30:26 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:30:27 --> Call to undefined method App\Models\TicketModel::rjoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('rjoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:30:35 --> Call to undefined method App\Models\TicketModel::ljoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('ljoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:30:35 --> Call to undefined method App\Models\TicketModel::ljoin
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(35): CodeIgniter\Model->__call('ljoin', [...])
+ 2 APPPATH\Controllers\TicketController.php(82): App\Models\TicketModel->getList()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 22:15:23 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1731)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1731): mail('chathura@boc.lk', '=?UTF-8?Q?Test?...', 'This is a multi...', 'Date: Mon, 18 M...', '-f chathuradula...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\NotificationController.php(131): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\NotificationController->sendEmail()
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-18 22:15:23 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-18 22:15:23 --> 

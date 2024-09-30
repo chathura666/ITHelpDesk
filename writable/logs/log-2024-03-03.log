@@ -1,0 +1,1745 @@
+ERROR - 2024-03-03 12:16:14 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:16:14 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:16:28 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:16:28 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:20:07 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:20:07 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:20:08 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:20:08 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:20:08 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:20:08 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:20:29 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:20:29 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:20:35 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:20:35 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:21:13 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 12:21:13 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(110): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:30:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(142): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-03 12:30:05 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'d\', \'dddd\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'$2y$10$kC2fxRajXQ1uwZe5UYoS6OM4Anr/QF9JIVG5IwK/lg3pldv3SjfxW\', \'2024-03-03\', \'2.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'d\', \'dddd\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'$2y$10$kC2fxRajXQ1uwZe5UYoS6OM4Anr/QF9JIVG5IwK/lg3pldv3SjfxW\', \'2024-03-03\', \'2.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'d\', \'dddd\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'$2y$10$kC2fxRajXQ1uwZe5UYoS6OM4Anr/QF9JIVG5IwK/lg3pldv3SjfxW\', \'2024-03-03\', \'2.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:, :avatar:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(54): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(142): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 12:32:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(142): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-03 12:32:15 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'ddd\', \'ddd\', \'ddd@b.k\', \'ddd\', \'1\', \'ddd\', \'notselected\', \'notselected\', \'$2y$10$2VreiwBU69Du3UK2TzCIqu2.kdokola88VHYMLgTLZwUGJgb6O/Di\', \'2024-03-03\', \'1.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'ddd\', \'ddd\', \'ddd@b.k\', \'ddd\', \'1\', \'ddd\', \'notselected\', \'notselected\', \'$2y$10$2VreiwBU69Du3UK2TzCIqu2.kdokola88VHYMLgTLZwUGJgb6O/Di\', \'2024-03-03\', \'1.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'ddd\', \'ddd\', \'ddd\', \'ddd@b.k\', \'ddd\', \'1\', \'ddd\', \'notselected\', \'notselected\', \'$2y$10$2VreiwBU69Du3UK2TzCIqu2.kdokola88VHYMLgTLZwUGJgb6O/Di\', \'2024-03-03\', \'1.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:, :avatar:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(54): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(142): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 13:22:46 --> Too few arguments to function App\Models\UserModel::findUser(), 1 passed in C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php on line 126 and exactly 2 expected
+in APPPATH\Models\UserModel.php on line 71.
+ 1 APPPATH\Controllers\UserManagementController.php(126): App\Models\UserModel->findUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 13:23:01 --> Too few arguments to function App\Models\UserModel::findUser(), 1 passed in C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php on line 126 and exactly 2 expected
+in APPPATH\Models\UserModel.php on line 71.
+ 1 APPPATH\Controllers\UserManagementController.php(126): App\Models\UserModel->findUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 17:30:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`ticket_master`, CONSTRAINT `fk_priority` FOREIGN KEY (`priority`) REFERENCES `priority_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\TicketModel.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\TicketController.php(330): App\Models\TicketModel->savedata(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-03 17:30:53 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`ticket_master`, CONSTRAINT `fk_priority` FOREIGN KEY (`priority`) REFERENCES `priority_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (:pf_number:, :name:, :contact_no:, :branch:, :incedent_category:, :hardware_type_id:, :hardware_brand_id:, :hardware_model_id:, :issue_id:, :ip_address:, :priority:, :content:, :status :, :created_by:, :created_on:, :current_assigned_unit:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\TicketModel.php(98): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\TicketController.php(330): App\Models\TicketModel->savedata([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 17:30:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`ticket_master`, CONSTRAINT `fk_priority` FOREIGN KEY (`priority`) REFERENCES `priority_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ti...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\TicketModel.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\TicketController.php(330): App\Models\TicketModel->savedata(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-03 17:30:59 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`ticket_master`, CONSTRAINT `fk_priority` FOREIGN KEY (`priority`) REFERENCES `priority_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (\'207432\', \'Chathura\', \'0711849601\', \'\', \'software\', \'1\', \'1\', \'1\', \'1\', \'172.20.106.60\', \'Choose level...\', \'DMS Scanner not working\', 1, \'3\', \'2024-03-03 12:00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ticket_master` (`pf_number`, `name`, `contact_no`, `branch`, `incedent_category`, `hardware_type_id`, `hardware_brand_id`, `hardware_model_id`, `issue_id`, `ip_address`, `priority`, `content`, `status`, `created_by`, `created_on`, `current_assigned_unit`) VALUES (:pf_number:, :name:, :contact_no:, :branch:, :incedent_category:, :hardware_type_id:, :hardware_brand_id:, :hardware_model_id:, :issue_id:, :ip_address:, :priority:, :content:, :status :, :created_by:, :created_on:, :current_assigned_unit:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\TicketModel.php(98): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\TicketController.php(330): App\Models\TicketModel->savedata([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 17:34:52 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 17:34:52 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:20:52 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\RoleModel.php(70): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\UserManagementController.php(97): App\Models\RoleModel->search_by_id([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:20:53 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\RoleModel.php(70): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\UserManagementController.php(97): App\Models\RoleModel->search_by_id([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:20:58 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles_master`
+WHERE `role_id` = :role_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\RoleModel.php(70): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\UserManagementController.php(97): App\Models\RoleModel->search_by_id([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:29:10 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:29:10 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:29:11 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:29:11 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:29:12 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:29:12 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:29:23 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:29:23 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:29:31 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:29:31 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:30:16 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:30:16 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:30:17 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:30:17 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:31:00 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:31:00 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:31:01 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:31:01 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:31:22 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:31:22 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:32:44 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:32:44 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:32:51 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:32:51 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:32:52 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:32:52 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:33:13 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:33:13 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:33:14 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:33:14 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(100): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:33:25 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php on line 112
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\UserManagementController.php(112): view('UserManagementView/ViewUser', null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:33:26 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php on line 112
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\UserManagementController.php(112): view('UserManagementView/ViewUser', null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:33:32 --> Undefined variable $userlist
+in APPPATH\Views\UserManagementView\ViewUser.php on line 59.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(112): view('UserManagementView/ViewUser')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:34:14 --> Undefined property: stdClass::$name
+in APPPATH\Views\UserManagementView\ViewUser.php on line 66.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(97): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:34:15 --> Undefined property: stdClass::$name
+in APPPATH\Views\UserManagementView\ViewUser.php on line 66.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(97): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:34:22 --> Undefined property: stdClass::$name
+in APPPATH\Views\UserManagementView\ViewUser.php on line 66.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(97): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:34:23 --> Undefined property: stdClass::$name
+in APPPATH\Views\UserManagementView\ViewUser.php on line 66.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(97): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:36:37 --> mysqli_sql_exception: Unknown column 'roles_master.id' in 'on clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_ma...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_ma...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_ma...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_ma...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(98): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-03 21:36:37 --> Unknown column 'roles_master.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_master`.*, `roles_master`.`role_name` as `role_name`, `units`.`name` as `name`
+FROM `user_master`
+JOIN `roles_master` ON `user_master`.`role`  = `roles_master`.`id`
+JOIN `units` ON `user_master`.`primary_unit` = `units`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserManagementController.php(98): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:50:13 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:50:13 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:51:34 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:51:34 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:51:49 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:51:49 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:52:41 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:52:41 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:54:16 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:54:16 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:54:45 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:54:45 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:55:17 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:55:17 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:55:52 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:55:52 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 21:56:41 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 21:56:41 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:57:41 --> Undefined variable $rolelist
+in APPPATH\Views\UserManagementView\EditUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\EditUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolelist', 'APPPATH\\Views\\UserManagementView\\EditUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\EditUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/EditUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(71): view('UserManagementView/EditUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:57:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 51.
+ 1 APPPATH\Controllers\UserManagementController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:58:05 --> Undefined array key "unitlist"
+in APPPATH\Controllers\UserManagementController.php on line 51.
+ 1 APPPATH\Controllers\UserManagementController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unitlist"', 'APPPATH\\Controllers\\UserManagementController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:58:56 --> Undefined variable $rolelist
+in APPPATH\Views\UserManagementView\EditUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\EditUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolelist', 'APPPATH\\Views\\UserManagementView\\EditUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\EditUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/EditUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(70): view('UserManagementView/EditUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:58:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 50.
+ 1 APPPATH\Controllers\UserManagementController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:59:46 --> Undefined variable $rolelist
+in APPPATH\Views\UserManagementView\EditUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\EditUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolelist', 'APPPATH\\Views\\UserManagementView\\EditUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\EditUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/EditUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(70): view('UserManagementView/EditUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 21:59:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 50.
+ 1 APPPATH\Controllers\UserManagementController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 22:00:29 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 22:00:29 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-03 22:00:30 --> mysqli_sql_exception: Table 'ithelpdesk.groups' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-03 22:00:30 --> Table 'ithelpdesk.groups' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\GroupModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\UserManagementController.php(50): App\Models\GroupModel->getGroups()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('2')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:01:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:01:51 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\RoleManagementController.php(48): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getselectedrole('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:02:11 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UnitManagementController.php(36): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UnitManagementController->getselectedunit('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:03:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:05:33 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:08:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:09:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:09:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:09:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:09:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:10:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:10:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:11:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:13:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:17:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:17:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:17:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:17:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:17:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:18:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 53.
+ 1 APPPATH\Controllers\UserManagementController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:58:57 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:58:59 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:59:19 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:59:20 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:59:21 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:59:29 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 23:59:30 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,84 @@
+ERROR - 2023-05-04 03:18:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'itformmanagemen...', 3306, '', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IT_form_management\app\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\IT_form_management\app\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+#6 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 03:18:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `departmentmaster`
+WHERE `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 03:18:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'itformmanagemen...', 3306, '', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IT_form_management\app\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\IT_form_management\app\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+#6 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 03:18:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `departmentmaster`
+WHERE `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\DepartmentModel.php(36): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

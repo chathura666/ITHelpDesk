@@ -1,0 +1,525 @@
+CRITICAL - 2024-02-06 10:12:27 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php on line 53.
+ 1 APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/ViewHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(112): view('HardwareManagementView/ViewHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getbrandlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:13:06 --> Undefined property: stdClass::$hardware_name
+in APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php on line 57.
+ 1 APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$hardware_name', 'APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/ViewHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(112): view('HardwareManagementView/ViewHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getbrandlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:13:08 --> Undefined property: stdClass::$hardware_name
+in APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php on line 57.
+ 1 APPPATH\Views\HardwareManagementView\ViewHardwareBrand.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$hardware_name', 'APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\ViewHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/ViewHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(112): view('HardwareManagementView/ViewHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getbrandlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'logo-compact.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '2.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '3.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:14:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'logo-compact.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '3.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'avatar', '2.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(40): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedtype('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:28:45 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:30:35 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:30:36 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:30:36 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:30:52 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:31:31 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareModel.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareModel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareModel', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareModel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:32:40 --> Undefined variable $typelist
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typelist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:35:41 --> Undefined variable $brandlist
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brandlist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:35:42 --> Undefined variable $brandlist
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 95.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brandlist', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(70): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:23 --> Undefined variable $type
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 103.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(72): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:24 --> Undefined variable $type
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 103.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(72): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:25 --> Undefined variable $type
+in APPPATH\Views\HardwareManagementView\EditHardwareBrand.php on line 103.
+ 1 APPPATH\Views\HardwareManagementView\EditHardwareBrand.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\HardwareManagementView\\EditHardwareBrand.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('HardwareManagementView/EditHardwareBrand', [], true)
+ 5 APPPATH\Controllers\HardwareController.php(72): view('HardwareManagementView/EditHardwareBrand', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo-compact.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '2.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '3.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:48 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:52 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:52 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo-compact.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:52 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:52 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '3.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:52 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '2.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:53 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:53 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:36:53 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'logo-compact.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '3.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '4.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'avatar', '2.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 10:37:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\HardwareController.php(74): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\HardwareController->getselectedbrand('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HardwareController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

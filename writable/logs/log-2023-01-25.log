@@ -1,0 +1,51 @@
+CRITICAL - 2023-01-25 00:48:52 --> Trying to access array offset on value of type null
+in SYSTEMPATH\BaseModel.php on line 750.
+ 1 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\BaseModel.php', 750)
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 3 APPPATH\Models\FirewallRequestModel.php(40): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Firewallrequest.php(44): App\Models\FirewallRequestModel->saveRequest([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->save()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 00:51:44 --> Trying to access array offset on value of type null
+in SYSTEMPATH\BaseModel.php on line 750.
+ 1 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\BaseModel.php', 750)
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 3 APPPATH\Models\FirewallRequestModel.php(40): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Firewallrequest.php(44): App\Models\FirewallRequestModel->saveRequest([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->save()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-25 00:52:48 --> mysqli_sql_exception: Unknown column 'extension' in 'field list' in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\FWallform_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\FWallform_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\FWallform_management\app\Controllers\Firewallrequest.php(44): App\Models\FirewallRequestModel->saveRequest(Array)
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->save()
+#10 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#11 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-25 00:52:48 --> Unknown column 'extension' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `firewallrequestmaster` (`staffmember`, `pfno`, `email`, `mobile`, `extension`, `department`, `position`, `typeofchange`, `category`, `explanation`) VALUES (\'samuda\', \'Test\', \'Test\', 213, 223, \'Test\', 1, \'Test\', \'Test\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `firewallrequestmaster` (`staffmember`, `pfno`, `email`, `mobile`, `extension`, `department`, `position`, `typeofchange`, `category`, `explanation`) VALUES (\'samuda\', \'Test\', \'Test\', 213, 223, \'Test\', 1, \'Test\', \'Test\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `firewallrequestmaster` (`staffmember`, `pfno`, `email`, `mobile`, `extension`, `department`, `position`, `typeofchange`, `category`, `explanation`) VALUES (\'samuda\', \'Test\', \'Test\', 213, 223, \'Test\', 1, \'Test\', \'Test\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `firewallrequestmaster` (`staffmember`, `pfno`, `email`, `mobile`, `extension`, `department`, `position`, `typeofchange`, `category`, `explanation`) VALUES (:staffmember:, :pfno:, :email:, :mobile:, :extension:, :department:, :position:, :typeofchange:, :category:, :explanation:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\FirewallRequestModel.php(40): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Firewallrequest.php(44): App\Models\FirewallRequestModel->saveRequest([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

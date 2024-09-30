@@ -1,0 +1,48 @@
+CRITICAL - 2024-03-13 11:58:48 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 6 APPPATH\Controllers\FAQController.php(28): view('FAQ/ViewFAQ', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 12:15:25 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 6 APPPATH\Controllers\FAQController.php(28): view('FAQ/ViewFAQ', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 12:15:27 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 6 APPPATH\Controllers\FAQController.php(28): view('FAQ/ViewFAQ', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 12:15:28 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 6 APPPATH\Controllers\FAQController.php(28): view('FAQ/ViewFAQ', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

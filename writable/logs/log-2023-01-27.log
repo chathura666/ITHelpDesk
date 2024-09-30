@@ -1,0 +1,15 @@
+CRITICAL - 2023-01-27 04:06:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Models\DepartmentModel.php on line 35.
+ 1 APPPATH\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 04:07:10 --> Call to undefined method App\Models\DepartmentModel::getResult
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\DepartmentModel.php(35): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\Firewallrequest.php(19): App\Models\DepartmentModel->getDepartments('A')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

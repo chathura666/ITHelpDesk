@@ -1,0 +1,164 @@
+CRITICAL - 2024-02-27 00:19:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(289): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettoedit('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:09 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(289): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettoedit('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:35:18 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:35:18 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-27 00:52:51 --> mysqli_sql_exception: Unknown column 'ticket_master.current_assigned_unit_id' in 'where clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Controllers\Home.php(98): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-27 00:52:51 --> Unknown column 'ticket_master.current_assigned_unit_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` as `issue_details`, `ticket_status_master`.`description` as `description`, `priority_master`.`prioirty_name` as `prioirty_name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+JOIN `ticket_status_master` ON `ticket_master`.`status` = `ticket_status_master`.`id`
+JOIN `priority_master` ON `ticket_master`.`priority` = `priority_master`.`id`
+WHERE `ticket_master`.`current_assigned_unit_id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_master`.*, `issue_base`.`issue_description` as `issue_details`, `ticket_status_master`.`description` as `description`, `priority_master`.`prioirty_name` as `prioirty_name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+JOIN `ticket_status_master` ON `ticket_master`.`status` = `ticket_status_master`.`id`
+JOIN `priority_master` ON `ticket_master`.`priority` = `priority_master`.`id`
+WHERE `ticket_master`.`current_assigned_unit_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_master`.*, `issue_base`.`issue_description` as `issue_details`, `ticket_status_master`.`description` as `description`, `priority_master`.`prioirty_name` as `prioirty_name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+JOIN `ticket_status_master` ON `ticket_master`.`status` = `ticket_status_master`.`id`
+JOIN `priority_master` ON `ticket_master`.`priority` = `priority_master`.`id`
+WHERE `ticket_master`.`current_assigned_unit_id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_master`.*, `issue_base`.`issue_description` as `issue_details`, `ticket_status_master`.`description` as `description`, `priority_master`.`prioirty_name` as `prioirty_name`
+FROM `ticket_master`
+JOIN `issue_base` ON `ticket_master`.`issue_id` = `issue_base`.`id`
+JOIN `ticket_status_master` ON `ticket_master`.`status` = `ticket_status_master`.`id`
+JOIN `priority_master` ON `ticket_master`.`priority` = `priority_master`.`id`
+WHERE `ticket_master`.`current_assigned_unit_id` = :ticket_master.current_assigned_unit_id :', [...], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(98): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 01:00:33 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 01:00:33 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 01:13:59 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 01:13:59 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 04:25:23 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 04:25:23 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:01:11 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:01:11 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(191): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'favicon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 11:36:22 --> Undefined array key "avatar"
+in APPPATH\Views\common\dashboard.php on line 137.
+ 1 APPPATH\Views\common\dashboard.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "avatar"', 'APPPATH\\Views\\common\\dashboard.php', 137)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

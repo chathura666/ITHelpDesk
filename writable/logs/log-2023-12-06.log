@@ -1,0 +1,69 @@
+CRITICAL - 2023-12-06 10:39:19 --> Call to undefined method App\Models\UserModel::getRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\UserManagementController.php(77): CodeIgniter\Model->__call('getRole', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:40:01 --> Call to undefined method App\Models\UserModel::getRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\UserManagementController.php(77): CodeIgniter\Model->__call('getRole', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:42:02 --> Undefined variable $rolelist
+in APPPATH\Views\RoleManagementView\AddRole.php on line 64.
+ 1 APPPATH\Views\RoleManagementView\AddRole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolelist', 'APPPATH\\Views\\RoleManagementView\\AddRole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\RoleManagementView\\AddRole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/AddRole', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(82): view('RoleManagementView/AddRole')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:42:03 --> Undefined variable $rolelist
+in APPPATH\Views\RoleManagementView\AddRole.php on line 64.
+ 1 APPPATH\Views\RoleManagementView\AddRole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolelist', 'APPPATH\\Views\\RoleManagementView\\AddRole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\RoleManagementView\\AddRole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/AddRole', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(82): view('RoleManagementView/AddRole')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:42:25 --> Undefined variable $departments
+in APPPATH\Views\UserManagementView\AddUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\AddUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\UserManagementView\\AddUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\AddUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/AddUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(82): view('UserManagementView/AddUser')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:42:26 --> Undefined variable $departments
+in APPPATH\Views\UserManagementView\AddUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\AddUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\UserManagementView\\AddUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\AddUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/AddUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(82): view('UserManagementView/AddUser')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:44:39 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\UserManagementView\AddUser.php on line 105.
+ 1 APPPATH\Views\UserManagementView\AddUser.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\UserManagementView\\AddUser.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\AddUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/AddUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(86): view('UserManagementView/AddUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

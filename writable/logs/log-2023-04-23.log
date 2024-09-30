@@ -1,0 +1,73 @@
+CRITICAL - 2023-04-23 05:50:36 --> Class "App\Controllers\FirewallauthenticationModel" not found
+in APPPATH\Controllers\Firewallauthentication.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Firewallauthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:52:13 --> Class "App\Controllers\FirewallauthenticationModel" not found
+in APPPATH\Controllers\Firewallauthentication.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Firewallauthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:52:17 --> Class "App\Controllers\FirewallauthenticationModel" not found
+in APPPATH\Controllers\Firewallauthentication.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Firewallauthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:06:45 --> Class "App\Models\FirewallauthenticationModel" not found
+in APPPATH\Controllers\Firewallauthentication.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Firewallauthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:13:10 --> Undefined variable $departments
+in APPPATH\Views\firewallauthentication\authenticationpanel.php on line 105.
+ 1 APPPATH\Views\firewallauthentication\authenticationpanel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallauthentication\\authenticationpanel.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallauthentication\\authenticationpanel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/authenticationpanel', [], true)
+ 5 APPPATH\Controllers\Firewallauthentication.php(21): view('firewallauthentication/authenticationpanel')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authenticationpanel()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:48:56 --> Invalid file: firewallauthentication/approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallauthentication/approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/approval', [], true)
+ 3 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:50:21 --> Invalid file: firewallauthentication/approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallauthentication/approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/approval', [], true)
+ 3 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:50:26 --> Invalid file: firewallauthentication/approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallauthentication/approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/approval', [], true)
+ 3 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:51:47 --> Undefined variable $departments
+in APPPATH\Views\firewallauthentication\authentication.php on line 105.
+ 1 APPPATH\Views\firewallauthentication\authentication.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallauthentication\\authentication.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallauthentication\\authentication.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/authentication', [], true)
+ 5 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/authentication')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authentication()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

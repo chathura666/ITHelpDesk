@@ -1,0 +1,245 @@
+CRITICAL - 2024-03-19 06:59:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\TicketController.php on line 548.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 06:59:58 --> Call to a member function isValid() on null
+in APPPATH\Controllers\TicketController.php on line 548.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 07:01:48 --> Call to a member function isValid() on null
+in APPPATH\Controllers\TicketController.php on line 548.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 07:04:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\TicketController.php on line 548.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:26:10 --> Invalid file: TicketView/ViewPersonalTickets.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/ViewPersonalTickets.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/ViewPersonalTickets', [], true)
+ 3 APPPATH\Controllers\TicketController.php(131): view('TicketView/ViewPersonalTickets', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getpersonalticketlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:26:46 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 97.
+ 1 APPPATH\Controllers\TicketController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:26:47 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 97.
+ 1 APPPATH\Controllers\TicketController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:27:32 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 95.
+ 1 APPPATH\Controllers\TicketController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:27:33 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 95.
+ 1 APPPATH\Controllers\TicketController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:27:54 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 95.
+ 1 APPPATH\Controllers\TicketController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:28:23 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:30:26 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:30:27 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:30:27 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:30:59 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:31:00 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 14:31:18 --> Undefined variable $data
+in APPPATH\Controllers\TicketController.php on line 96.
+ 1 APPPATH\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\TicketController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getallticketlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 15:52:46 --> Invalid file: TicketView/EditTicketsPersonal.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicketsPersonal.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 3 APPPATH\Controllers\TicketController.php(474): view('TicketView/EditTicketsPersonal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettoedit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 15:52:50 --> Invalid file: TicketView/EditTicketsPersonal.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicketsPersonal.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 3 APPPATH\Controllers\TicketController.php(474): view('TicketView/EditTicketsPersonal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettoedit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 15:55:16 --> Invalid file: TicketView/EditTicketsPersonal.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicketsPersonal.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 3 APPPATH\Controllers\TicketController.php(474): view('TicketView/EditTicketsPersonal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettoedit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-19 18:35:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1731)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1731): mail('chathura@boc.lk', '=?UTF-8?Q?Test?...', 'This is a multi...', 'Date: Tue, 19 M...', '-f chathuradula...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\NotificationController.php(131): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\NotificationController->sendEmail()
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-19 18:35:17 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-19 18:35:17 --> 
+CRITICAL - 2024-03-19 22:16:34 --> Undefined array key "primary_unit "
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 APPPATH\Controllers\UserManagementController.php(487): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primary_unit "', 'APPPATH\\Controllers\\UserManagementController.php', 487)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:17:04 --> Undefined array key "primary_unit"
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 APPPATH\Controllers\UserManagementController.php(487): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "primary_unit"', 'APPPATH\\Controllers\\UserManagementController.php', 487)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:18:14 --> Array callback must have exactly two elements
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:19:00 --> Array callback must have exactly two elements
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:26:09 --> Array callback must have exactly two elements
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:26:18 --> Array callback must have exactly two elements
+in APPPATH\Controllers\UserManagementController.php on line 487.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->searchUser()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:31:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:31:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:32:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:33:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:33:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:33:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 22:33:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 218.
+ 1 APPPATH\Controllers\TicketController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('15')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

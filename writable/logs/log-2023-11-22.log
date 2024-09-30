@@ -1,0 +1,42 @@
+CRITICAL - 2023-11-22 13:41:12 --> Invalid file: rolerequest/getroletoedit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolerequest/getroletoedit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolerequest/getroletoedit', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(43): view('rolerequest/getroletoedit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getselectedrole('1')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 13:53:44 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\editrole.php on line 64.
+ 1 APPPATH\Views\rolemanagement\editrole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\editrole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\editrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/editrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(43): view('rolemanagement/editrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getselectedrole('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 14:14:42 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\editrole.php on line 64.
+ 1 APPPATH\Views\rolemanagement\editrole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\editrole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\editrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/editrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(43): view('rolemanagement/editrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getselectedrole('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 14:14:44 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\editrole.php on line 64.
+ 1 APPPATH\Views\rolemanagement\editrole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\editrole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\editrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/editrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(43): view('rolemanagement/editrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getselectedrole('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

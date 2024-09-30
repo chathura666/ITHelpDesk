@@ -1,0 +1,42 @@
+ERROR - 2023-11-10 13:43:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'itformmanagemen...', 3306, '', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\IT_form_management\app\Controllers\Login.php(36): App\Models\UserModel->getUser('lakmal')
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Login->login()
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\IT_form_management\app\Controllers\Login.php(36): App\Models\UserModel->getUser('lakmal')
+#6 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Login->login()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 13:43:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usermaster`
+WHERE `u_name` = :u_name:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\UserModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(36): App\Models\UserModel->getUser('lakmal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

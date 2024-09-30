@@ -1,0 +1,27 @@
+CRITICAL - 2023-01-05 05:19:36 --> Invalid file: login/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(14): view('login/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 05:20:51 --> Invalid file: login/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(14): view('login/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 05:23:31 --> Invalid file: login/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/dashboard', [], true)
+ 3 APPPATH\Controllers\Login.php(14): view('login/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

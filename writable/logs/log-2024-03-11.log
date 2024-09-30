@@ -1,0 +1,68 @@
+CRITICAL - 2024-03-11 12:15:08 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/ViewRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(87): view('RoleManagementView/ViewRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:15:13 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 111.
+ 1 APPPATH\Views\common\baselayout.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 6 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:26:24 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(232): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('ticket', 'personalviewfull', '20')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 21:57:27 --> Call to undefined method App\Models\TicketModel::getTicketAllCountByStatus
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->__call('getTicketAllCountByStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 21:57:28 --> Call to undefined method App\Models\TicketModel::getTicketAllCountByStatus
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->__call('getTicketAllCountByStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 21:57:53 --> Call to undefined method App\Models\TicketModel::getTicketAllCountByStatus
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(160): CodeIgniter\Model->__call('getTicketAllCountByStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 22:12:33 --> Call to undefined method App\Models\UserModel::getUserAllCount
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(171): CodeIgniter\Model->__call('getUserAllCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 22:12:45 --> Call to undefined method App\Models\UserModel::getUserAllCount
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(171): CodeIgniter\Model->__call('getUserAllCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

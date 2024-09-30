@@ -1,0 +1,151 @@
+CRITICAL - 2023-04-22 00:02:38 --> Invalid file: firewallrequest/pendingrequest.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallrequest/pendingrequest.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequest', [], true)
+ 3 APPPATH\Controllers\Firewallrequest.php(58): view('firewallrequest/pendingrequest')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:04:33 --> Undefined variable $data
+in APPPATH\Controllers\Firewallrequest.php on line 59.
+ 1 APPPATH\Controllers\Firewallrequest.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Firewallrequest.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:04:56 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 105.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:05:53 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 109.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:13:57 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 109.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:14:00 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 109.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:14:09 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 113.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 00:14:21 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 130.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(59): view('firewallrequest/pendingrequestlist')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:16:02 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Firewallrequest.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Firewallrequest.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Firewallrequest')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Firewallrequest')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Firewallrequest', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:16:25 --> Invalid file: firewallrequest::approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallrequest::approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest::approval', [], true)
+ 3 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest::approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:17:08 --> Invalid file: firewallrequest::approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallrequest::approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest::approval', [], true)
+ 3 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest::approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:17:10 --> Invalid file: firewallrequest::approval.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('firewallrequest::approval.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest::approval', [], true)
+ 3 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest::approval')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:18:34 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\approval.php on line 105.
+ 1 APPPATH\Views\firewallrequest\approval.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\approval.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\approval.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/approval', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest/approval')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:19:32 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\approval.php on line 105.
+ 1 APPPATH\Views\firewallrequest\approval.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\approval.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\approval.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/approval', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest/approval')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 05:20:33 --> Undefined variable $departments
+in APPPATH\Views\firewallrequest\approval.php on line 130.
+ 1 APPPATH\Views\firewallrequest\approval.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallrequest\\approval.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\approval.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/approval', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(65): view('firewallrequest/approval')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->approval()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

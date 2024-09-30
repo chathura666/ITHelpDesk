@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-02 01:00:52 --> Invalid file: common/dashbord.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/dashbord.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashbord', [], true)
+ 3 APPPATH\Controllers\Login.php(75): view('common/dashbord')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->home()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

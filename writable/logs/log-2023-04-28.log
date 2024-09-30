@@ -1,0 +1,58 @@
+CRITICAL - 2023-04-28 02:03:26 --> Invalid file: common/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/home', [], true)
+ 3 APPPATH\Controllers\Login.php(75): view('common/home')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->home()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:04:26 --> Invalid file: common/dashbord.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/dashbord.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashbord', [], true)
+ 3 APPPATH\Controllers\Login.php(75): view('common/dashbord')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->home()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:04:29 --> Invalid file: common/dashbord.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/dashbord.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashbord', [], true)
+ 3 APPPATH\Controllers\Login.php(75): view('common/dashbord')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->home()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:05:29 --> Undefined variable $departments
+in APPPATH\Views\firewallauthentication\authentication.php on line 105.
+ 1 APPPATH\Views\firewallauthentication\authentication.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallauthentication\\authentication.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallauthentication\\authentication.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/authentication', [], true)
+ 5 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/authentication')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authentication()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:05:32 --> Undefined variable $departments
+in APPPATH\Views\firewallauthentication\authentication.php on line 105.
+ 1 APPPATH\Views\firewallauthentication\authentication.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallauthentication\\authentication.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallauthentication\\authentication.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/authentication', [], true)
+ 5 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/authentication')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authentication()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 02:06:06 --> Invalid file: common/dashbord.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/dashbord.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashbord', [], true)
+ 3 APPPATH\Controllers\Login.php(75): view('common/dashbord')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->home()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

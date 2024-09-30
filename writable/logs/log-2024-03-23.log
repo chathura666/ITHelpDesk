@@ -1,0 +1,871 @@
+ERROR - 2024-03-23 00:04:11 --> mysqli_sql_exception: Unknown column 'ticket_status_master.description' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1048): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:04:11 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1048.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 00:04:20 --> mysqli_sql_exception: Unknown column 'ticket_status_master.description' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1048): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:04:20 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1048.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 00:06:52 --> mysqli_sql_exception: Unknown column 'ticket_status_master.description' in 'field list' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1048): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:06:52 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1048.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 00:26:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%m/%d/%Y), `ticket_master`.`created_by`, `ticket_master`.`status`, `ticket_ma...' at line 1 in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1033): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:26:34 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1033.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 00:58:12 --> mysqli_sql_exception: Not unique table/alias: 'user_master' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1034): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:58:12 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 00:58:28 --> mysqli_sql_exception: Not unique table/alias: 'user_master' in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\TicketController.php(1034): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 00:58:28 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\TicketController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getticketlistreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:15:30 --> Undefined property: stdClass::$avatar
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 APPPATH\Views\common\dashboard.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avatar', 'APPPATH\\Views\\common\\dashboard.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:15:34 --> Undefined property: stdClass::$avatar
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 APPPATH\Views\common\dashboard.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avatar', 'APPPATH\\Views\\common\\dashboard.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:15:44 --> Undefined property: stdClass::$avatar
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 APPPATH\Views\common\dashboard.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avatar', 'APPPATH\\Views\\common\\dashboard.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:21:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:21:45 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:22:20 --> Undefined property: stdClass::$avatar
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 APPPATH\Views\common\dashboard.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avatar', 'APPPATH\\Views\\common\\dashboard.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:22:21 --> Undefined property: stdClass::$avatar
+in APPPATH\Views\common\dashboard.php on line 213.
+ 1 APPPATH\Views\common\dashboard.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avatar', 'APPPATH\\Views\\common\\dashboard.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(142): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 07:25:04 --> mysqli_sql_exception: Table 'ithelpdesk.user_base' doesn't exist in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\Home.php(117): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 07:25:04 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 07:25:05 --> mysqli_sql_exception: Table 'ithelpdesk.user_base' doesn't exist in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\Home.php(117): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 07:25:05 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 07:25:06 --> mysqli_sql_exception: Table 'ithelpdesk.user_base' doesn't exist in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\Home.php(117): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 07:25:06 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 07:26:38 --> mysqli_sql_exception: Table 'ithelpdesk.user_base' doesn't exist in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\Home.php(117): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 07:26:38 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 07:26:38 --> mysqli_sql_exception: Table 'ithelpdesk.user_base' doesn't exist in D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket_...', 0)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket_...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket_...')
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket_...', Array, false)
+#4 D:\XAMPP\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\Home.php(117): CodeIgniter\Model->__call('get', Array)
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Home->homepage()
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 07:26:38 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 07:50:03 --> Undefined variable $attachment
+in APPPATH\Views\TicketView\EditTickets.php on line 530.
+ 1 APPPATH\Views\TicketView\EditTickets.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $attachment', 'APPPATH\\Views\\TicketView\\EditTickets.php', 530)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(130): view('TicketView/EditTickets')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 08:58:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 328.
+ 1 APPPATH\Controllers\TicketController.php(328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 328)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->tickethistory('77')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 08:58:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 328.
+ 1 APPPATH\Controllers\TicketController.php(328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 328)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->tickethistory('77')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:01:00 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1308.
+ 1 APPPATH\Views\common\dashboard.php(1308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:01:09 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1308.
+ 1 APPPATH\Views\common\dashboard.php(1308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:01:45 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1308.
+ 1 APPPATH\Views\common\dashboard.php(1308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:01:46 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1308.
+ 1 APPPATH\Views\common\dashboard.php(1308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:03:12 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:03:13 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:03:38 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(206): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:05:32 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:08 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:09 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:13 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:14 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:15 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:39 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:46 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:48 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:06:49 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1316.
+ 1 APPPATH\Views\common\dashboard.php(1316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1316)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:24 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:24 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:25 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:26 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:26 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:27 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:07:27 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1309.
+ 1 APPPATH\Views\common\dashboard.php(1309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1309)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:09 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:11 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:11 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:22 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:23 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:09:24 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1313.
+ 1 APPPATH\Views\common\dashboard.php(1313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1313)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:12 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:13 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:14 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:15 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:16 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:10:16 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:12:09 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 73.
+ 1 APPPATH\Views\common\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:12:10 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 73.
+ 1 APPPATH\Views\common\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:12:11 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 73.
+ 1 APPPATH\Views\common\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:12:12 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 73.
+ 1 APPPATH\Views\common\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:12:13 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 73.
+ 1 APPPATH\Views\common\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:23:19 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1318.
+ 1 APPPATH\Views\common\dashboard.php(1318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1318)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:23:45 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1311.
+ 1 APPPATH\Views\common\dashboard.php(1311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1311)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:23:45 --> Undefined variable $data
+in APPPATH\Views\common\dashboard.php on line 1311.
+ 1 APPPATH\Views\common\dashboard.php(1311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\common\\dashboard.php', 1311)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(204): view('common/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:48:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\TicketModel.php on line 214.
+ 1 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:48:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\TicketModel.php on line 214.
+ 1 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:11 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:12 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:25 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:26 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:26 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:27 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:28 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 11:49:29 --> Call to undefined method App\Models\TicketModel::group_by
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\TicketModel.php(217): CodeIgniter\Model->__call('group_by', [...])
+ 2 APPPATH\Controllers\Home.php(198): App\Models\TicketModel->getTicketCountMonthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

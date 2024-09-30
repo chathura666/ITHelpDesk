@@ -1,0 +1,22 @@
+CRITICAL - 2023-05-10 01:32:10 --> Undefined variable $item
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 64.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(62): view('firewallrequest/pendingrequestlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:48:45 --> Undefined variable $item
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 66.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(62): view('firewallrequest/pendingrequestlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

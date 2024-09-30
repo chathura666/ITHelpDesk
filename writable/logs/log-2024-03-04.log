@@ -1,0 +1,417 @@
+CRITICAL - 2024-03-04 00:00:17 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:00:40 --> Undefined array key "role"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:00:40 --> Undefined array key "role"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(45): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:03:49 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(47): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:03:50 --> Undefined array key "user_id"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Home.php', 33)
+ 2 APPPATH\Controllers\Home.php(47): App\Controllers\Home->checkSession()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:04:44 --> Undefined array key "user_id"
+in APPPATH\Views\common\baselayout.php on line 420.
+ 1 APPPATH\Views\common\baselayout.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\common\\baselayout.php', 420)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(39): view('common/dashboard')
+ 7 APPPATH\Controllers\Home.php(47): App\Controllers\Home->checkSession()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:13:05 --> Undefined array key "user_id"
+in APPPATH\Views\common\baselayout.php on line 420.
+ 1 APPPATH\Views\common\baselayout.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\common\\baselayout.php', 420)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 6 APPPATH\Controllers\UserManagementController.php(166): view('UserManagementView/ViewUser', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:32:27 --> Undefined property: stdClass::$name
+in APPPATH\Views\UserManagementView\AddUser.php on line 325.
+ 1 APPPATH\Views\UserManagementView\AddUser.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\UserManagementView\\AddUser.php', 325)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\AddUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/AddUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(186): view('UserManagementView/AddUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlisttoadd()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 00:41:33 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(72): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(215): App\Models\UserModel->findUserByUsername('PF207444')
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-04 00:41:33 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_master`
+WHERE `username` = \'PF207444\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_master`
+WHERE `username` = \'PF207444\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_master`
+WHERE `username` = \'PF207444\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_master`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\UserModel.php(72): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\UserManagementController.php(215): App\Models\UserModel->findUserByUsername('PF207444')
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:47:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserManagementController.php on line 70.
+ 1 APPPATH\Controllers\UserManagementController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\UserManagementController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:59:39 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 261.
+ 1 APPPATH\Views\common\baselayout.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 261)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:02:04 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 261.
+ 1 APPPATH\Views\common\baselayout.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 261)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:05:04 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 261.
+ 1 APPPATH\Views\common\baselayout.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 261)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:10:55 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 261.
+ 1 APPPATH\Views\common\baselayout.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 261)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:12:38 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 276.
+ 1 APPPATH\Views\common\baselayout.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 276)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:12:40 --> Undefined property: stdClass::$ADM_Edit_Users
+in APPPATH\Views\common\baselayout.php on line 276.
+ 1 APPPATH\Views\common\baselayout.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ADM_Edit_Users', 'APPPATH\\Views\\common\\baselayout.php', 276)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('common/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('common/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->homepage()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:28:53 --> Class "App\Controllers\Dompdf" not found
+in APPPATH\Controllers\ReportController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->exportPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:29:23 --> Class "App\Controllers\Dompdf" not found
+in APPPATH\Controllers\ReportController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->exportPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:29:25 --> Class "App\Controllers\Dompdf" not found
+in APPPATH\Controllers\ReportController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->exportPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:29:38 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(45): view('Reports/ViewReport')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:30:46 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:30:47 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:30:48 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:30:48 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:31:17 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 113.
+ 1 APPPATH\Views\Reports\ViewReport.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 01:53:29 --> Undefined variable $userlist
+in APPPATH\Views\Reports\ViewReport.php on line 95.
+ 1 APPPATH\Views\Reports\ViewReport.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'APPPATH\\Views\\Reports\\ViewReport.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reports\\ViewReport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 5 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 07:42:31 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 08:07:49 --> Undefined array key "user_id"
+in APPPATH\Views\common\baselayout.php on line 466.
+ 1 APPPATH\Views\common\baselayout.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\common\\baselayout.php', 466)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 6 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 08:07:53 --> Undefined array key "user_id"
+in APPPATH\Views\common\baselayout.php on line 466.
+ 1 APPPATH\Views\common\baselayout.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\common\\baselayout.php', 466)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 6 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 10:55:06 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 11:59:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(241): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-04 11:59:14 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'\', \'\', \'\', \'\', \'\', \'1\', \'\', \'\', \'\', \'$2y$10$aU.0MIZkt/6N1OZAmnAKGeOMoqKJAc23BhZA1lmHyyb4q.2dMuk3u\', \'2024-03-04\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'\', \'\', \'\', \'\', \'\', \'1\', \'\', \'\', \'\', \'$2y$10$aU.0MIZkt/6N1OZAmnAKGeOMoqKJAc23BhZA1lmHyyb4q.2dMuk3u\', \'2024-03-04\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (\'\', \'\', \'\', \'\', \'\', \'1\', \'\', \'\', \'\', \'$2y$10$aU.0MIZkt/6N1OZAmnAKGeOMoqKJAc23BhZA1lmHyyb4q.2dMuk3u\', \'2024-03-04\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`, `avatar`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:, :avatar:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(50): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(241): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 12:38:54 --> Undefined property: stdClass::$active
+in APPPATH\Views\UserManagementView\ViewUser.php on line 71.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$active', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(191): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlistreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 12:39:07 --> Undefined property: stdClass::$active
+in APPPATH\Views\UserManagementView\ViewUser.php on line 71.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$active', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(191): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlistreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 12:42:14 --> Undefined property: stdClass::$active
+in APPPATH\Views\UserManagementView\ViewUser.php on line 71.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$active', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(191): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlistreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 12:42:28 --> Undefined property: stdClass::$active
+in APPPATH\Views\UserManagementView\ViewUser.php on line 71.
+ 1 APPPATH\Views\UserManagementView\ViewUser.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$active', 'APPPATH\\Views\\UserManagementView\\ViewUser.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\UserManagementView\\ViewUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('UserManagementView/ViewUser', [], true)
+ 5 APPPATH\Controllers\UserManagementController.php(191): view('UserManagementView/ViewUser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getuserlistreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 12:59:58 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

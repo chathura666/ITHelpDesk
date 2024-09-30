@@ -1,0 +1,11 @@
+CRITICAL - 2023-11-30 17:08:22 --> Undefined property: stdClass::$roleid
+in APPPATH\Views\usermanagement\adduser.php on line 66.
+ 1 APPPATH\Views\usermanagement\adduser.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roleid', 'APPPATH\\Views\\usermanagement\\adduser.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usermanagement\\adduser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usermanagement/adduser', [], true)
+ 5 APPPATH\Controllers\Usermanagement.php(24): view('usermanagement/adduser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->getrolelist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

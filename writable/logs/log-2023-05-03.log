@@ -1,0 +1,63 @@
+CRITICAL - 2023-05-03 00:14:08 --> Undefined variable $departments
+in APPPATH\Views\firewallauthentication\authentication.php on line 105.
+ 1 APPPATH\Views\firewallauthentication\authentication.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\firewallauthentication\\authentication.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallauthentication\\authentication.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallauthentication/authentication', [], true)
+ 5 APPPATH\Controllers\Firewallauthentication.php(28): view('firewallauthentication/authentication')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authentication()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 03:03:31 --> Undefined property: stdClass::$u_id
+in APPPATH\Views\firewallrequest\pendingrequestlist.php on line 59.
+ 1 APPPATH\Views\firewallrequest\pendingrequestlist.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$u_id', 'APPPATH\\Views\\firewallrequest\\pendingrequestlist.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\pendingrequestlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/pendingrequestlist', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(61): view('firewallrequest/pendingrequestlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 06:24:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'itformmanagemen...', 3306, '', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IT_form_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(59): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\IT_form_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\IT_form_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\IT_form_management\app\Controllers\Firewallrequest.php(59): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-03 06:24:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Firewallrequest.php(59): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->pendingrequestlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

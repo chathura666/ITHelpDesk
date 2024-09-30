@@ -1,0 +1,22 @@
+CRITICAL - 2024-03-12 21:14:55 --> Undefined variable $files
+in APPPATH\Views\FAQ\ViewFAQ.php on line 23.
+ 1 APPPATH\Views\FAQ\ViewFAQ.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files', 'APPPATH\\Views\\FAQ\\ViewFAQ.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\FAQ\\ViewFAQ.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 5 APPPATH\Controllers\FAQController.php(24): view('FAQ/ViewFAQ')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 21:29:47 --> Undefined variable $files
+in APPPATH\Views\FAQ\ViewFAQ.php on line 21.
+ 1 APPPATH\Views\FAQ\ViewFAQ.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files', 'APPPATH\\Views\\FAQ\\ViewFAQ.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\FAQ\\ViewFAQ.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('FAQ/ViewFAQ', [], true)
+ 5 APPPATH\Controllers\FAQController.php(22): view('FAQ/ViewFAQ')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\FAQController->viewFAQ()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

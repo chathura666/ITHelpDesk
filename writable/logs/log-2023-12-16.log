@@ -1,0 +1,39 @@
+ERROR - 2023-12-16 02:42:01 --> mysqli_sql_exception: Table 'ithelpdesk.firewallrequestmaster' doesn't exist in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITHelpDesk\app\Models\FirewallauthenticationModel.php(34): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ITHelpDesk\app\Controllers\Firewallauthentication.php(30): App\Models\FirewallauthenticationModel->getAuthrequests()
+#7 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authenticationpanel()
+#8 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-16 02:42:01 --> Table 'ithelpdesk.firewallrequestmaster' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `firewallrequestmaster`
+WHERE `mng_apr` = 1
+AND `sec_apr` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `firewallrequestmaster`
+WHERE `mng_apr` = 1
+AND `sec_apr` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `firewallrequestmaster`
+WHERE `mng_apr` = 1
+AND `sec_apr` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`
+WHERE `mng_apr` = :mng_apr:
+AND `sec_apr` = :sec_apr:', [...], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\FirewallauthenticationModel.php(34): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Firewallauthentication.php(30): App\Models\FirewallauthenticationModel->getAuthrequests()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallauthentication->authenticationpanel()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallauthentication))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

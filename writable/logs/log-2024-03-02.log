@@ -1,0 +1,765 @@
+ERROR - 2024-03-02 09:52:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 09:52:34 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 09:53:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 09:53:00 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 09:53:32 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 09:53:32 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 09:53:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 09:53:50 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'ddd\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 10:04:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 10:04:46 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'mkjjj\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'mkjjj\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'mkjjj\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 10:06:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ITHelpDesk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ITHelpDesk\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ITHelpDesk\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITHelpDesk\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITHelpDesk\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITHelpDesk\app\Models\UserModel.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITHelpDesk\app\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+#10 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+#11 C:\xampp\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 10:06:18 --> Cannot add or update a child row: a foreign key constraint fails (`ithelpdesk`.`user_master`, CONSTRAINT `fk_u` FOREIGN KEY (`role`) REFERENCES `roles_master` (`role_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'sss\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'sss\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (\'sss\', \'\', \'\', \'\', \'\', \'1\', \'\', \'Select Unit...\', \'Select Role...\', \'\', \'2024-03-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_master` (`user_name`, `first_name`, `last_name`, `email`, `mobile`, `active`, `ext`, `primary_unit`, `role`, `password`, `created_at`) VALUES (:user_name:, :first_name:, :last_name:, :email:, :mobile:, :active:, :ext:, :primary_unit:, :role:, :password:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(53): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UserManagementController.php(140): App\Models\UserModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 14:35:40 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UserManagementController.php(77): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->getselecteduser('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:31:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 313.
+ 1 APPPATH\Controllers\TicketController.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 313)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:31:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 313.
+ 1 APPPATH\Controllers\TicketController.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 313)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:32:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 313.
+ 1 APPPATH\Controllers\TicketController.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 313)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:36:31 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(195): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:43:08 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:43:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:43:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:44:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:46:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:46:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:47:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:48:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:50:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:50:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:59:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 294.
+ 1 APPPATH\Controllers\TicketController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:01:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 324.
+ 1 APPPATH\Controllers\TicketController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->saveticket()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:03:59 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:16:46 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\UserManagementController.php on line 124.
+ 1 APPPATH\Controllers\UserManagementController.php(124): password_hash('123')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:19:08 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\UserManagementController.php on line 124.
+ 1 APPPATH\Controllers\UserManagementController.php(124): password_hash('123')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\UserManagementController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:31:33 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:31:48 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:33:24 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:40:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:41:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:47:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:49:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:49:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:50:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:50:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:50:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:51:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:52:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:53:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:55:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(40): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:55:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(40): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:55:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(40): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:55:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:56:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:56:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:56:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(42): App\Models\UserModel->getUser('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:58:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:58:55 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:59:31 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 16:59:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:00:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:00:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:01:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:01:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:01:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:02:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:02:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:02:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:02:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 APPPATH\Controllers\Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:15 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Login.php on line 70.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:18 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Login.php on line 70.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:19 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Login.php on line 70.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:19 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Login.php on line 70.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:31 --> Attempt to read property "first_name" on array
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'APPPATH\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:34 --> Attempt to read property "first_name" on array
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'APPPATH\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:04:37 --> Attempt to read property "first_name" on array
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'APPPATH\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:08:03 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:08:15 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:08:39 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:09:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:09:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:10:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:10:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:11:45 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:12:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:13:31 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:17:08 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:17:35 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:17:38 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:18:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:18:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:19:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 45.
+ 1 APPPATH\Controllers\Login.php(46): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:19:28 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:24:28 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:24:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 17:25:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): App\Models\UserModel->getUser('PF207713')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:22:26 --> Attempt to read property "first_name" on array
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 20:30:00 --> The route for "not_good_id_method" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('not_good_id_method')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\TicketController.php(185): redirect('not_good_id_method', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('FCPATH\\images', 'user', '1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

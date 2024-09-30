@@ -1,0 +1,369 @@
+ERROR - 2023-01-22 04:35:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:35:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:36:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:36:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:37:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:37:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:39:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:39:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:42:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:42:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:42:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:42:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:42:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:42:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:42:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:42:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 04:45:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'P@ss6ook@admin', 'firewallmanagem...', 3306, '', 0)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\FWallform_management\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\FWallform_management\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\FWallform_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\FWallform_management\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\FWallform_management\app\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\FWallform_management\app\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+#6 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+#7 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\FWallform_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FWallform_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 04:45:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `firewallrequestmaster`', [], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FirewallRequestModel.php(32): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Login.php(23): App\Models\FirewallRequestModel->getRequests()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

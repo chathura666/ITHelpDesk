@@ -1,0 +1,579 @@
+CRITICAL - 2024-03-20 14:40:21 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 115.
+ 1 APPPATH\Views\common\baselayout.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/ViewRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(87): view('RoleManagementView/ViewRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:40:25 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 115.
+ 1 APPPATH\Views\common\baselayout.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('RoleManagementView/ViewRole', [], true)
+ 6 APPPATH\Controllers\RoleManagementController.php(87): view('RoleManagementView/ViewRole', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RoleManagementController->getrolelist()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:40:26 --> Undefined array key "user_avatar"
+in APPPATH\Views\common\baselayout.php on line 115.
+ 1 APPPATH\Views\common\baselayout.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_avatar"', 'APPPATH\\Views\\common\\baselayout.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\common\\baselayout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\common\\baselayout', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reports/ViewReport', [], true)
+ 6 APPPATH\Controllers\ReportController.php(47): view('Reports/ViewReport', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ReportController->viewReports()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 14:47:25 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1731)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1731): mail('chathura@boc.lk', '=?UTF-8?Q?Test?...', 'This is a multi...', 'Date: Wed, 20 M...', '-f chathuradula...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\NotificationController.php(131): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\NotificationController->sendEmail()
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-20 14:47:25 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-20 14:47:25 --> 
+CRITICAL - 2024-03-20 15:37:26 --> Undefined variable $filesize
+in APPPATH\Controllers\TicketController.php on line 605.
+ 1 APPPATH\Controllers\TicketController.php(605): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filesize', 'APPPATH\\Controllers\\TicketController.php', 605)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->fileupload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 17:04:41 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-20 17:04:41 --> 
+ERROR - 2024-03-20 17:08:54 --> Email: sendWithMail throwed ErrorException: mail(): SMTP server response: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. e25-20020a62aa19000000b006e535bf8da4sm11471364pff.57 - gsmtp in D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): SMTP se...', 'D:\\XAMPP\\htdocs...', 1731)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1731): mail('chathura@boc.lk', '=?UTF-8?Q?Test?...', 'This is a multi...', 'Date: Wed, 20 M...', '-f chathuradula...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\NotificationController.php(131): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\NotificationController->sendEmail()
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-20 17:08:54 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-20 17:08:54 --> 
+ERROR - 2024-03-20 17:09:00 --> Email: sendWithMail throwed ErrorException: mail(): SMTP server response: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. p52-20020a056a0026f400b006e8c0227b00sm997208pfw.197 - gsmtp in D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): SMTP se...', 'D:\\XAMPP\\htdocs...', 1731)
+#1 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1731): mail('chathura@boc.lk', '=?UTF-8?Q?Test?...', 'This is a multi...', 'Date: Wed, 20 M...', '-f chathuradula...')
+#2 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\ITHelpDesk\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\ITHelpDesk\app\Controllers\NotificationController.php(131): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(925): App\Controllers\NotificationController->sendEmail()
+#6 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#7 D:\XAMPP\htdocs\ITHelpDesk\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\ITHelpDesk\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-20 17:09:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-03-20 17:09:00 --> 
+CRITICAL - 2024-03-20 22:15:51 --> Invalid file: TicketView/ManageTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/ManageTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/ManageTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(119): view('TicketView/ManageTicket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:15:55 --> Invalid file: TicketView/ManageTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/ManageTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/ManageTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(119): view('TicketView/ManageTicket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:19:21 --> Invalid file: TicketView/ManageTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/ManageTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/ManageTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(125): view('TicketView/ManageTicket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:19:38 --> Invalid file: TicketView/ManageTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/ManageTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/ManageTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(125): view('TicketView/ManageTicket', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:25:16 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 140.
+ 1 APPPATH\Views\TicketView\EditTickets.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:25:17 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 140.
+ 1 APPPATH\Views\TicketView\EditTickets.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:25:18 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 140.
+ 1 APPPATH\Views\TicketView\EditTickets.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:25:18 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 140.
+ 1 APPPATH\Views\TicketView\EditTickets.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:27:28 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:27:29 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:27:30 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:27:33 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:27:47 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:28:46 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 179.
+ 1 APPPATH\Views\TicketView\EditTickets.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 179)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:28:47 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 179.
+ 1 APPPATH\Views\TicketView\EditTickets.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 179)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:29:36 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:29:44 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 191.
+ 1 APPPATH\Views\TicketView\EditTickets.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:30:07 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 193.
+ 1 APPPATH\Views\TicketView\EditTickets.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:30:08 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 193.
+ 1 APPPATH\Views\TicketView\EditTickets.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:31:24 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 195.
+ 1 APPPATH\Views\TicketView\EditTickets.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:31:24 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 195.
+ 1 APPPATH\Views\TicketView\EditTickets.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:31:47 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 197.
+ 1 APPPATH\Views\TicketView\EditTickets.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:31:47 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 197.
+ 1 APPPATH\Views\TicketView\EditTickets.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:31:48 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 197.
+ 1 APPPATH\Views\TicketView\EditTickets.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:05 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 197.
+ 1 APPPATH\Views\TicketView\EditTickets.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:06 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTickets.php on line 197.
+ 1 APPPATH\Views\TicketView\EditTickets.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTickets.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTickets')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:31 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:32 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:33 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:33 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:34 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:34 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:35 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:35 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:33:36 --> Undefined variable $editticketid
+in APPPATH\Views\TicketView\EditTicketsPersonal.php on line 177.
+ 1 APPPATH\Views\TicketView\EditTicketsPersonal.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketid', 'APPPATH\\Views\\TicketView\\EditTicketsPersonal.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTicketsPersonal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicketsPersonal', [], true)
+ 5 APPPATH\Controllers\TicketController.php(125): view('TicketView/EditTicketsPersonal')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:37:28 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 349.
+ 1 APPPATH\Views\TicketView\EditTickets.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 349)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:37:29 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 349.
+ 1 APPPATH\Views\TicketView\EditTickets.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 349)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:37:30 --> Undefined variable $editticketincedent_category
+in APPPATH\Views\TicketView\EditTickets.php on line 349.
+ 1 APPPATH\Views\TicketView\EditTickets.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editticketincedent_category', 'APPPATH\\Views\\TicketView\\EditTickets.php', 349)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:44:03 --> Undefined variable $activitylist
+in APPPATH\Views\TicketView\EditTickets.php on line 489.
+ 1 APPPATH\Views\TicketView\EditTickets.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activitylist', 'APPPATH\\Views\\TicketView\\EditTickets.php', 489)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:44:04 --> Undefined variable $activitylist
+in APPPATH\Views\TicketView\EditTickets.php on line 489.
+ 1 APPPATH\Views\TicketView\EditTickets.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activitylist', 'APPPATH\\Views\\TicketView\\EditTickets.php', 489)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:44:50 --> Undefined variable $activitylist
+in APPPATH\Views\TicketView\EditTickets.php on line 489.
+ 1 APPPATH\Views\TicketView\EditTickets.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activitylist', 'APPPATH\\Views\\TicketView\\EditTickets.php', 489)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:44:50 --> Undefined variable $activitylist
+in APPPATH\Views\TicketView\EditTickets.php on line 489.
+ 1 APPPATH\Views\TicketView\EditTickets.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activitylist', 'APPPATH\\Views\\TicketView\\EditTickets.php', 489)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\TicketView\\EditTickets.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTickets', [], true)
+ 5 APPPATH\Controllers\TicketController.php(126): view('TicketView/EditTickets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->manageticketlist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 23:46:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TicketController.php on line 199.
+ 1 APPPATH\Controllers\TicketController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\TicketController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselecteticket('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 23:55:51 --> Invalid file: TicketView/EditTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(503): view('TicketView/EditTicket', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettomanage('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 23:56:41 --> Invalid file: TicketView/EditTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(503): view('TicketView/EditTicket', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettomanage('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 23:59:06 --> Invalid file: TicketView/EditTicket.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TicketView/EditTicket.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('TicketView/EditTicket', [], true)
+ 3 APPPATH\Controllers\TicketController.php(503): view('TicketView/EditTicket', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TicketController->getselectedtickettomanage('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

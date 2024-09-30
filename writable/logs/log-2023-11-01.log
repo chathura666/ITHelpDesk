@@ -1,0 +1,37 @@
+CRITICAL - 2023-11-01 08:38:20 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-01 08:44:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-01 08:44:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-01 05:24:01 --> Undefined variable $pendingRequests
+in APPPATH\Views\rolemanagement\addrole.php on line 58.
+ 1 APPPATH\Views\rolemanagement\addrole.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingRequests', 'APPPATH\\Views\\rolemanagement\\addrole.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\addrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/addrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(22): view('rolemanagement/addrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 05:57:50 --> Attempt to read property "roleid" on array
+in APPPATH\Views\rolemanagement\addrole.php on line 56.
+ 1 APPPATH\Views\rolemanagement\addrole.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roleid" on array', 'APPPATH\\Views\\rolemanagement\\addrole.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\addrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/addrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(22): view('rolemanagement/addrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
